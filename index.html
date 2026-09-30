@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+       <nav class="navbar">
+            <div>
+            <p class="portfolio">Portfolio</p>
+            </div>
+            <div class="tags" >
+            <a href="#home">Home</a>
+            <a href="#About">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="themebtn" class="dark">
+                <i class="fa-regular fa-sun" id="themeicon"></i>
+            </button>
+            </div>
+            <button class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <!-- <button id="themebtn" class="dark">
+                <i class="fa-regular fa-sun" id="themeicon"></i>
+            </button> -->
+        </nav>
+         </header>
+         <section id="home">
+        <div class="Intro">
+        <div class="box1">
+            <h3>Hi, I'm</h3>
+            <h1>LASYA GODDETI</h1>
+            <h3>ECE Student| 
+                <span id="roles"></span>
+            </h3>
+            <p>I build responsive and user-friendly web applications
+using React, JavaScript, and Node.js while continuously expanding my full-stack development skills.</p>
+            <a href="#resume" class="btn">View Resume</a>
+            <br>
+            <a href="#projects" class="btn" style="margin-top:30px">View Projects</a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/lasya-goddeti-387424350" class="linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                  <a href="https://github.com/lasyagoddeti711-ctrl" class="github">
+                      <i class="fa-brands fa-github"></i>
+                </a>
+                  <!-- <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a> -->
+            </div>
+        </div>
+        <div class="profile">
+           <!-- <i class="fa-solid fa-circle-user"></i> -->
+        </div>
+        </div>
+   </section>
+   <section id="About">
+       <h1>About Me</h1>
+       <div class="about-me">
+      <div class="part1">
+       <p>I am an Electronics and Communication Engineering student with a strong interest in full-stack web development. I enjoy building responsive and user-friendly web applications using HTML, CSS, JavaScript, React, and Node.js. I'm continuously learning new technologies and looking for opportunities to apply my skills in real-world projects.</p>
+       <p>I enjoy solving problems through code and believe that every project is an opportunity to learn and improve. My focus is on writing clean, efficient, and maintainable code while creating intuitive user experiences. I am always eager to explore modern web technologies, collaborate on meaningful projects, and grow as a developer through continuous learning and hands-on experience.</p>
+      </div>
+      <div class="education">
+        <h3>Education</h3>
+         <h4>B.Tech in Electronics and communicatioon Engineering</h4>
+         <p>NIT Patna</p>
+         <span>2024-2028</span>
+      </div>
+      </div>
+   </section>
+   <section id="skills">
+    <div class="technicalskills">
+        <h1>Technical Skills</h1>
+    </div>
+        <div class="all-skills">
+                 <button class="skills-btn" data-target="frontend">FRONTEND</button>
+            <button class="skills-btn" data-target="Backend">BACKEND</button>
+            <button class="skills-btn" data-target="programming">PROGRAMMING</button>
+            <button class="skills-btn" data-target="databases">DATABASES</button>
+        </div>
+           <div class="skill-cards">
+        <div class="frontend selected">
+            <h3>FRONTEND</h3>
+            <p>HTML5</p>
+              <p>CSS3</p>
+                  <p>React</p>
+                  <p>Tailwind CSS</p>
+        </div>
+        <div class="Backend">
+             <h3>BACKEND</h3>
+            <p>NodeJS</p>
+            <p>Next.js</p>
+            <p>Express</p>
+        </div>
+        <div class="programming">
+             <h3>PROGRAMMING</h3>
+            <p>Java</p>
+            <p>Javascript</p>
+            <p>DSA</p>
+            <p>OOP</p>
+        </div>
+        <div class="databases">
+             <h3>DATABASES</h3>
+            <p>MongoDB</p>
+            <p>PostgreSQL</p>
+            <p>Redis</p>
+        </div>
+        </div>
+   </section>
+   <section id="projects">
+     <h1>Featured Projects</h1>
+     <p class="projectsheading">A selection of my recent work showcasing my capabilities</p>
+      <div class="projectsdiv">
+     <div class="project1">
+        <img src="profile.png" alt="E-commerce">
+        <div class="project-content">
+            <h3>E-Commerce Web Application</h3>
+            <p>A full-stack e-commerce platform that allows users to browse products, manage their shopping cart, and place orders.</p>
+            <div class="tech">
+                <span>React</span>
+                <span>Javascript</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MongoDB</span>
+            </div>
+            <div class="buttons">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+     </div>
+       <div class="project2">
+        <img src="profile.png" alt="Job & Internship Portal">
+        <div class="project-content">
+            <h3>Job & Internship Portal</h3>
+            <p>A full-stack platform where students can browse and apply for internships and recruiters can post and manage job opportunities.</p>
+            <div class="tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MongoDB</span>
+                <span>JWT</span>
+            </div>
+            <div class="buttons">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+     </div>
+         <div class="project3">
+            <img src="profile.png" alt="Weather app">
+        <div class="project-content">
+            <h3>Weather Application</h3>
+            <p>A responsive weather Application that fetches real-time weather data using an external API.</p>
+            <div class="tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+                <span>React</span>
+                <span>Weather API</span>
+            </div>
+            <div class="buttons">
+                <a href="#">Live Demo</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+         </div>
+     </div>
+   </section>
+   <section id="contact">
+       <h1>Let's Connect</h1>
+       <div class="contactme">
+       <div class="contact-content">
+        <h2>Have Something in Mind?</h2>
+        <p>I'd love to hear from you!I'm always open to discussing projects, internship opportunities, or just connecting. Feel free to reach out! Let's build something great together</p>
+        <div class="contactinfo">
+              <a href="#">
+           <i class="fa-brands fa-github"></i>
+           <span>github.com/Lasya</span>
+        </a>
+        <br>
+        <a href="#">
+           <i class="fa-brands fa-linkedin"></i>
+           <span>linkedin.com/Lasya</span>
+        </a>
+        <br>
+          <a href="#">
+           <i class="fa-regular fa-envelope"></i>
+           <span>lasyagoddeti711@gmail.com</span>
+        </a>
+        <br>
+        </div>
+         <hr class="contact-line">
+         <h2>What I'm Interested In</h2>
+         <span style="margin-top:10px">[Web Development] </span>
+         <br>
+         <span>[Full-Stack Projects]</span>
+         <br>
+        <span>[Collaborations]</span>
+        </div>
+       <form class="contact-form">
+            <input type="text" name="name" placeholder="Enter your Name" required>
+            <input type="email" name="email" placeholder="Enter your Email" required>
+            <textarea name="message" placeholder="Enter your message" required></textarea>
+            <button type="submit">Send Message</button>
+       </form>
+       </div>
+   </section>
+   <footer class="footer">
+    <a href="#" class="back-to-top">Back to Top ↑</a>
+    <div class="footer-icons">
+        <a href="https://github.com/lasyagoddeti711-ctrl" class="footer-github">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/lasya-goddeti-387424350" class="footer-linkedin">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+         <a href="mailto:lasyagoddeti711@gmail.com" class="footer-email">
+           <i class="fa-regular fa-envelope"></i>
+        </a>
+         <a href="https://leetcode.com/u/Lasya_Goddeti/" class="footer-leetcode">
+           <img src="https://cdn.simpleicons.org/leetcode" alt="LeetCode">
+        </a>
+    </div>
+    <p class="copyright">
+        @<span id="year"></span>Lasya Goddeti .All Rights Reserved
+    </p>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
